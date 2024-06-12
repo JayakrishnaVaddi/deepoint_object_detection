@@ -1,4 +1,4 @@
-# deepoint_object_detection
+# Deepoint_Object_Detection
 
 This project is derived from a neural network named DeePoint developed by MIT. Apart form DeePoint this model uses another neural networks to detect the objects in the frame and filters the objects to detect which object is being being pointed.
 
