@@ -1,0 +1,3 @@
+- movie=./demo/demo10.mp4
+- lr=r
+- ckpt=./models/weight.ckpt

@@ -1,0 +1,122 @@
+[2024-04-22 03:37:16,360][root][INFO] - Successfully loaded settings:
+==================================================
+data:
+  dataset_name: DPDataset
+  data_root: data/frames/
+  label_root: data/labels/
+  keypoints_root: data/keypoints/
+  venue_names:
+  - 2023-01-17-livingroom
+  - 2023-01-18-livingroom
+  - 2023-01-19-livingroom
+  - 2023-01-24-livingroom
+  - 2023-01-25-livingroom
+  - 2023-01-17-openoffice
+  - 2023-01-18-openoffice
+  - 2023-01-19-openoffice
+  - 2023-01-24-openoffice
+  - 2023-01-25-openoffice
+model:
+  tlength: 15
+  featvec_joint: true
+  hidden_size: 192
+  attention_heads: 12
+  num_layers: 6
+  featvec_bb: false
+  featvec_img: false
+  omit_temporal_encoder: false
+hardware:
+  nworkers: 8
+  gpus: 8
+  bs: 32
+task: train
+incl_all: false
+train_ratio: 0.7
+split_method: time
+overfit: false
+ckpt: ./models/weight.ckpt
+noanswer: false
+movie: ./demo/example.mp4
+lr: l
+verbose: false
+shrink_rate: 0.1
+filter_joint: null
+use_preprocessed: false
+debug: false
+hist_error: false
+==================================================
+
+[2024-04-22 03:37:16,360][root][WARNING] - Running DeePoint with CPU takes a long time.
+[2024-04-22 03:37:16,705][openpifpaf.decoder.factory][INFO] - No specific decoder requested. Using the first one from:
+  --decoder=cifcaf:0
+  --decoder=posesimilarity:0
+Use any of the above arguments to select one or multiple decoders and to suppress this message.
+[2024-04-22 03:37:16,706][openpifpaf.predictor][INFO] - neural network device: cpu (CUDA available: False, count: 0)
+[2024-04-22 03:37:17,392][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:17,393][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:17,598][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:17,598][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:17,794][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:17,794][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:17,988][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:17,988][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:18,191][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:18,191][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:18,380][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:18,380][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:18,657][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:18,657][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:18,875][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:18,876][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:19,075][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:19,075][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:19,275][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:19,276][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:19,478][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:19,479][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:19,684][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:19,684][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:19,885][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:19,885][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:20,080][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:20,081][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:20,278][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:20,278][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:20,786][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:20,787][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:34,430][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [13]
+[2024-04-22 03:37:34,431][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:34,879][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:34,879][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:48,223][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:48,223][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:37:48,711][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:37:48,711][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:03,792][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:03,792][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:04,317][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:04,317][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:18,822][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:18,823][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:19,369][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:19,369][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:34,295][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:34,296][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:34,964][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:34,964][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:51,994][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:51,995][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:38:52,709][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:38:52,710][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:09,893][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:09,894][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:10,640][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:10,641][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:30,672][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:30,673][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:31,363][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:31,363][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:49,679][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:49,679][openpifpaf.predictor][INFO] - batch 0: no-file-name
+[2024-04-22 03:39:50,438][openpifpaf.decoder.cifcaf][INFO] - annotations 1: [14]
+[2024-04-22 03:39:50,439][openpifpaf.predictor][INFO] - batch 0: no-file-name

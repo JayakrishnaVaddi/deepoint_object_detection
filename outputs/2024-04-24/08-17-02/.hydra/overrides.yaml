@@ -1,0 +1,3 @@
+- movie=./demo/kasi_demo_2.mp4
+- lr=l
+- ckpt=./models/weight.ckpt
